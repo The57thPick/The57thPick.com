@@ -1,7 +1,7 @@
 ---
 weight: 4
 title: "Automated Programming Language Identification"
-date: 2016-10-10T21:57:40+08:00
+date: 2016-08-30T21:57:40+08:00
 draft: false
 
 author: "jdkato"
@@ -11,7 +11,7 @@ summary: |
   A Python library and command-line tool for identifying the language of
   source code snippets and files.
 
-tags: ["python"]
+tags: ["Python"]
 categories: ["programming"]
 ---
 
