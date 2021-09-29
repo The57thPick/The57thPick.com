@@ -109,9 +109,9 @@ menu:
       name: Tags
       url: /tags/
       weight: 20
-    - identifier: example
+    - identifier: GitHub
       name: example.org
-      url: https://example.org
+      url: https://github.com/The57thPick
       weight: 30
 
 markup:
