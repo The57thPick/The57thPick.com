@@ -59,12 +59,10 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "The57thPick.com"
+    # TODO: https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fthe57thpick.com%2F
     Content: |
       Welcome to <b>The57thPick.com</b>, a personal blog about mathematics,
       politics, programming, finance, sports, and technical writing.
-      <br>
-      It's <a href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fthe57thpick.com%2F">fast</a>,
-      <a href="https://github.com/The57thPick">data-driven</a>, and open-source.
 
   socialIcons:
     - name: twitter
