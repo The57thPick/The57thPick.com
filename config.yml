@@ -60,10 +60,11 @@ params:
   homeInfoParams:
     Title: "The57thPick.com"
     Content: |
-      A collection of interactive, data-driven, and reproducible essays: the
-      goal is to curate generally-useful, open-source
-      <a href="https://github.com/The57thPick">data sets</a> while also
-      providing some interesting commentary.
+      Welcome to <b>The57thPick.com</b>, a personal blog about mathematics,
+      politics, programming, finance, sports, and technical writing.
+
+      It's <a href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fthe57thpick.com%2F">fast</a>
+      <a href="https://github.com/The57thPick">data-driven</a>, and open-source.
 
   socialIcons:
     - name: twitter
