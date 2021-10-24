@@ -85,12 +85,88 @@ to Medium, it shows up as a Markdown-formatted table inside of a code block.
 This allows you to make use of Markdown's readable nature to avoid having to
 upload your tabular data to a third-party embed service.
 
+### Source code
+
+Although Medium already supports code blocks natively, they don't support
+syntax-highlighting. This can be pretty jarring for those of us used to
+working with nicely-highlighted code.
+
+You can get around this issue by embedding a GitHub Gist for each code block
+(indeed, there are [tools to automate][7] that very process), but doing so has
+a few subjective drawbacks:
+
+1. It can quickly clutter your collection of GitHub Gists with largely
+   meaningless entries (a personal pet peeve of mine).
+
+2. The colors don't automatically change to match Medium's light/dark mode
+   setting.
+
+3. It requires uploading your content to a third-party, which goes against
+   `pb`'s theme of only working with Medium's supported Markdown elements.
+
+Fortunately, there's another option: Medium supports `<strong>` tags (bold)
+inside of their code blocks. Making use of this allows us to achieve a classic
+minimalist syntax-highlighting look:
+
+```python
+def fib(n):
+    """A code snippet taken from https://www.python.org/.
+    """
+    a, b = 0, 1
+    while a < n:
+        print(a, end=' ')
+        a, b = b, a+b
+    print()
+```
+
+Under the hood, `pb` uses a [Pygments][8]-based lexer to apply `strong` tags to
+all keywords. Thanks to Pygments, a wide [selection of languages][9] are
+supported.
+
+### Math typesetting
+
+As with tables, Medium has no out-of-the-box support for math equations and
+symbols. However, going back Tyler Neylon's aforementioned post[^1], there are
+possible solutions.
+
+`pb` performs two types of automated conversions: `inline` and `block`. The
+syntax for both follows the well-known [MathJax][10]-style (`$ ... $` and
+`$$ ... $$`).
+
+For *inline*-level math, `pb` substitutes unicode characters wherever possible
+and then italicizes the statement. Here are a few examples:
+
+- $i+j = n/4$
+
+- $x_{i+1}$ and $2^{32}$
+
+- $\zeta(s) = \sum 1/n^{s}$
+
+For `block`-level math, `pb` uses the [`math-api`][11] project to convert block
+statements into an SVG image. It then uses the free, cross-platform, and
+open-source [Inkscape][12] application to perform a local conversion to PNG
+which is uploaded to Medium. Here's an example:
+
+$$
+\iiint_V \mu(u,v,w) \,du\,dv\,dw
+$$
+
+### Footnotes
+
+## Conclusion
+
 [1]: https://medium.com/
 [2]: https://github.com/jdkato/pb
 [3]: https://code.visualstudio.com/
 [4]: https://typora.io/
 [5]: https://help.medium.com/hc/en-us/articles/215194537-Using-the-story-editor
 [6]: https://github.github.com/gfm/
+[7]: https://markdowntomedium.com/
+[8]: https://pygments.org/
+[9]: https://pygments.org/languages/
+[10]: https://www.mathjax.org/
+[11]: https://github.com/uetchy/math-api
+[12]: https://inkscape.org/
 
 [^1]: https://medium.com/@tylerneylon/how-to-write-mathematics-on-medium-f89aa45c42a0
 [^2]: https://matteocapitani.medium.com/writing-math-latex-formulas-in-medium-4987a2be60d6

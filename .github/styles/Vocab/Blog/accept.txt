@@ -1,7 +1,11 @@
 [Ll]ogictools
 [Ll]ua
+[Uu]nicode
+Gists?
+Inkscape
 Kato
 Lowis
 Neylon
+Pygments
 Rieppel
 Typora
