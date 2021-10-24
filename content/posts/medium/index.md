@@ -195,8 +195,8 @@ user-friendly for scientific writers.
 
 As the tool develops, I'm planning on offering more configuration options for
 choosing how to display content. For example, being able to specify that you'd
-like to embed GitHub Gists instead of using the default code block. I'm sure
-that there are a lot of interesting opportunities to explore.
+actually like to embed GitHub Gists instead of using the default code block.
+I'm sure that there are a lot of interesting opportunities to explore.
 
 If you want to help the project out, feel free to stop by its [GitHub
 repository][2] to open and issue, submit a PR, or simply give us a star!
