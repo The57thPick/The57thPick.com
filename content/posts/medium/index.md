@@ -53,7 +53,7 @@ on Medium?
 
 Well, now you can.
 
-## Introducing `pb`, an open-source CLI tool
+# Introducing `pb`, an open-source CLI tool
 
 [`pb`][2] is an open-source, command-line tool designed to facilitate a
 multi-platform, scientific publishing workflow.
@@ -74,7 +74,7 @@ to a format that Medium can understand.
 visit the [GitHub repository][2]. The remainder of this post is dedicated to
 a high-level explanation of its use case.)
 
-### Tables
+## Tables
 
 Tables are supported through the common GitHub-Flavored Markdown syntax:
 
@@ -89,7 +89,7 @@ to Medium, it shows up as a Markdown-formatted table inside of a code block.
 This allows you to make use of Markdown's readable nature to avoid having to
 upload your tabular data to a third-party embed service.
 
-### Source code
+## Source code
 
 Although Medium already supports code blocks natively, they don't support
 syntax-highlighting. This can be pretty jarring for those of us used to
@@ -127,7 +127,7 @@ Under the hood, `pb` uses a [Pygments][8]-based lexer to apply `strong` tags to
 all keywords. Thanks to Pygments, a wide [selection of languages][9] are
 supported.
 
-### Math typesetting
+## Math typesetting
 
 As with tables, Medium has no out-of-the-box support for math equations and
 symbols. However, going back Tyler Neylon's aforementioned post[^1], there are
@@ -155,7 +155,7 @@ $$
 \iiint_V \mu(u,v,w) \,du\,dv\,dw
 $$
 
-### Footnotes
+## Footnotes
 
 While Medium *technically* supports a footnote-like syntax with its superscript
 operator (`6^7`), there are still a few problems.
@@ -177,7 +177,7 @@ compatible with other hosts.
 
 It just works.
 
-## Conclusion
+# Conclusion
 
 As you probably guessed, this entire post was generated from a local Markdown
 file using `pb`. There was no copying-and-pasting from other services,
