@@ -13,8 +13,6 @@ tags: ["markdown", "medium"]
 categories: ["technical writing"]
 
 math: true
-
-draft: true
 ---
 
 [Medium][1] is an excellent platform for blogging and it has increasingly
