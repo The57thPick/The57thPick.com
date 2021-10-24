@@ -130,7 +130,7 @@ supported.
 ## Math typesetting
 
 As with tables, Medium has no out-of-the-box support for math equations and
-symbols. However, going back Tyler Neylon's aforementioned post[^1], there are
+symbols. However, going back Tyler Neylon's aforementioned post, there are
 possible solutions.
 
 `pb` performs two types of automated conversions: `inline` and `block`. The
@@ -164,7 +164,7 @@ First, if you simply use Medium's superscript syntax, you won't have
 working internal links. In other words, you can *indicate* that there's a
 footnote but you can't actually *navigate* to and from it.
 
-Second, if you want working links (as discussed in Antyal Tennyson's post[^4]),
+Second, if you want working links (as discussed in Antyal Tennyson's post),
 you need to individually create each link by inspecting Medium's generated
 HTML. That's both a lot of work and entirely Medium-specific; what if we're
 also posting to another source?
