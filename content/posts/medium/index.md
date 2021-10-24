@@ -70,6 +70,10 @@ The tool works by treating Medium's [supported Markdown dialect][5] as an
 posts using common Markdown syntax (more on that below) and `pb` converts it
 to a format that Medium can understand.
 
+(To learn more about the tool, including how to install and use it, please
+visit the [GitHub repository][2]. The remainder of this post is dedicated to
+a high-level explanation of its use case.)
+
 ### Tables
 
 Tables are supported through the common GitHub-Flavored Markdown syntax:
@@ -153,7 +157,42 @@ $$
 
 ### Footnotes
 
+While Medium *technically* supports a footnote-like syntax with its superscript
+operator (`6^7`), there are still a few problems.
+
+First, if you simply use Medium's superscript syntax, you won't have
+working internal links. In other words, you can *indicate* that there's a
+footnote but you can't actually *navigate* to and from it.
+
+Second, if you want working links (as discussed in Antyal Tennyson's post[^4]),
+you need to individually create each link by inspecting Medium's generated
+HTML. That's both a lot of work and entirely Medium-specific; what if we're
+also posting to another source?
+
+With `pb`, you don't have either of these problems&mdash;it supports the
+[Markdown Extra-style][13] footnote implementation. This style is commonly
+supported in static site generators (Jekyll, Hugo, ...) and other platforms
+(GitHub, Discourse, ...), which means that your content will be very
+compatible with other hosts.
+
+It just works.
+
 ## Conclusion
+
+As you probably guessed, this entire post was generated from a local Markdown
+file using `pb`. There was no copying-and-pasting from other services,
+no manual link creation, no HTML inspection; just one command:
+
+```
+pb -d /<..>/static/img /<..>/content/posts/medium/index.md
+```
+
+I think this is a great step forward in terms of making Medium more
+user-friendly for scientific writers. However, it's still a new open-source
+project and there are surely some edge cases.
+
+If you want to help the project out, feel free to stop by its [GitHub
+repository][2] to open and issue, submit a PR, or simply give us a star!
 
 [1]: https://medium.com/
 [2]: https://github.com/jdkato/pb
@@ -167,6 +206,7 @@ $$
 [10]: https://www.mathjax.org/
 [11]: https://github.com/uetchy/math-api
 [12]: https://inkscape.org/
+[13]: https://michelf.ca/projects/php-markdown/extra/#footnotes
 
 [^1]: https://medium.com/@tylerneylon/how-to-write-mathematics-on-medium-f89aa45c42a0
 [^2]: https://matteocapitani.medium.com/writing-math-latex-formulas-in-medium-4987a2be60d6
