@@ -28,20 +28,20 @@ I'm not the first person to run into this issue, either. A few searches for
 keyword phrases like "medium math formula" demonstrate how widespread the
 issue really is:
 
-- *How to write mathematics on Medium*[^1],
-  *Writing Math (LaTeX) Formulas in Medium*[^2], and
-  *How to Embed Beautiful Math equations in Medium*[^3] all describe multi-step
+- [How to write mathematics on Medium][14],
+  [Writing Math (LaTeX) Formulas in Medium][15], and
+  [How to Embed Beautiful Math equations in Medium][16] all describe multi-step
   workflows for including math typesetting. Essentially, you write your
   equations in other software, convert them to images, and then copy the images
   into your post.
 
-- *Undocumented Medium Formatting Tricks*[^4] describes an even more convoluted
+- [Undocumented Medium Formatting Tricks][17] describes an even more convoluted
   process for including internally-linked footnotes: you have to inspect the
   HTML source of a post, copy `name` attributes, and then manually create each
   link.
 
-- *5 Tips for Embedding Tables in Your Medium Posts*[^5] and
-  *How to Share Beautiful Tables on your Medium Articles*[^6] describe having
+- [5 Tips for Embedding Tables in Your Medium Posts][18] and
+  [How to Share Beautiful Tables on your Medium Articles][19] describe having
   to copy-and-paste tables into code blocks, include screenshots of your
   tables, or use third-party "embed" functionality.
 
@@ -130,7 +130,7 @@ supported.
 ## Math typesetting
 
 As with tables, Medium has no out-of-the-box support for math equations and
-symbols. However, going back Tyler Neylon's aforementioned post, there are
+symbols. However, going back Tyler Neylon's aforementioned post[^1], there are
 possible solutions.
 
 `pb` performs two types of automated conversions: `inline` and `block`. The
@@ -157,6 +157,11 @@ $$
 
 ## Footnotes
 
+> **Note**: In order for automated footnote-linking to work currently, the
+> references (e.g., `[^1]`) must appear within a flat paragraph (`<p>`) tag.
+> In other words, you currently can't add footnotes to list items or
+> blockquotes.
+
 While Medium *technically* supports a footnote-like syntax with its superscript
 operator (`6^7`), there are still a few problems.
 
@@ -164,7 +169,7 @@ First, if you simply use Medium's superscript syntax, you won't have
 working internal links. In other words, you can *indicate* that there's a
 footnote but you can't actually *navigate* to and from it.
 
-Second, if you want working links (as discussed in Antyal Tennyson's post),
+Second, if you want working links (as discussed in Antyal Tennyson's post[^2]),
 you need to individually create each link by inspecting Medium's generated
 HTML. That's both a lot of work and entirely Medium-specific; what if we're
 also posting to another source?
@@ -174,8 +179,6 @@ With `pb`, you don't have either of these problems&mdash;it supports the
 supported in static site generators (Jekyll, Hugo, ...) and other platforms
 (GitHub, Discourse, ...), which means that your content will be very
 compatible with other hosts.
-
-It just works.
 
 # Conclusion
 
@@ -188,8 +191,12 @@ $ pb -d /<..>/static/img /<..>/content/posts/medium/index.md
 ```
 
 I think this is a great step forward in terms of making Medium more
-user-friendly for scientific writers. However, it's still a new open-source
-project and there are surely some edge cases.
+user-friendly for scientific writers.
+
+As the tool develops, I'm planning on offering more configuration options for
+choosing how to display content. For example, being able to specify that you'd
+like to embed GitHub Gists instead of using the default code block. I'm sure
+that there are a lot of interesting opportunities to explore.
 
 If you want to help the project out, feel free to stop by its [GitHub
 repository][2] to open and issue, submit a PR, or simply give us a star!
@@ -207,10 +214,12 @@ repository][2] to open and issue, submit a PR, or simply give us a star!
 [11]: https://github.com/uetchy/math-api
 [12]: https://inkscape.org/
 [13]: https://michelf.ca/projects/php-markdown/extra/#footnotes
+[14]: https://medium.com/@tylerneylon/how-to-write-mathematics-on-medium-f89aa45c42a0
+[15]: https://matteocapitani.medium.com/writing-math-latex-formulas-in-medium-4987a2be60d6
+[16]: https://medium.com/@kiranachyutuni/how-to-embed-beautiful-math-equations-in-medium-a041a64dd4e3
+[17]: https://medium.com/@AntyalT/undocumented-medium-formatting-tricks-c827510c1409#f0ef
+[18]: https://medium.com/@mesirii/5-tips-for-embedding-tables-in-your-medium-posts-8722f3fc5bf5
+[19]: https://medium.com/geekculture/how-to-share-beautiful-tables-on-your-medium-articles-bd579738e33f
 
-[^1]: https://medium.com/@tylerneylon/how-to-write-mathematics-on-medium-f89aa45c42a0
-[^2]: https://matteocapitani.medium.com/writing-math-latex-formulas-in-medium-4987a2be60d6
-[^3]: https://medium.com/@kiranachyutuni/how-to-embed-beautiful-math-equations-in-medium-a041a64dd4e3
-[^4]: https://medium.com/@AntyalT/undocumented-medium-formatting-tricks-c827510c1409#f0ef
-[^5]: https://medium.com/@mesirii/5-tips-for-embedding-tables-in-your-medium-posts-8722f3fc5bf5
-[^6]: https://medium.com/geekculture/how-to-share-beautiful-tables-on-your-medium-articles-bd579738e33f
+[^1]: [How to write mathematics on Medium][14], Tyler Neylon, 2016
+[^2]: [Undocumented Medium Formatting Tricks][17], Antyal Tennyson, 2017

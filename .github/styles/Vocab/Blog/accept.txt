@@ -1,6 +1,8 @@
 [Ll]ogictools
 [Ll]ua
 [Uu]nicode
+Antyal
+blockquotes?
 Gists?
 Inkscape
 Kato
@@ -9,4 +11,3 @@ Neylon
 Pygments
 Rieppel
 Typora
-Antyal
