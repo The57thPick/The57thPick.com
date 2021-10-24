@@ -130,8 +130,8 @@ supported.
 ## Math typesetting
 
 As with tables, Medium has no out-of-the-box support for math equations and
-symbols. However, going back Tyler Neylon's aforementioned post[^1], there are
-possible solutions.
+symbols. However, going back to Tyler Neylon's aforementioned post[^1], there
+are possible solutions.
 
 `pb` performs two types of automated conversions: `inline` and `block`. The
 syntax for both follows the well-known [MathJax][10]-style (`$ ... $` and
@@ -199,7 +199,7 @@ actually like to embed GitHub Gists instead of using the default code block.
 I'm sure that there are a lot of interesting opportunities to explore.
 
 If you want to help the project out, feel free to stop by its [GitHub
-repository][2] to open and issue, submit a PR, or simply give us a star!
+repository][2] to open an issue, submit a PR, or simply give us a star!
 
 [1]: https://medium.com/
 [2]: https://github.com/jdkato/pb
