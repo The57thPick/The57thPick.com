@@ -2,4 +2,6 @@
 [Ll]ua
 Kato
 Lowis
+Neylon
 Rieppel
+Typora
