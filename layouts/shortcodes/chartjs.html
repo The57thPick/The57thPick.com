@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-xs-12">
-        <canvas id="base-acc-chart"></canvas>
+        <canvas id='{{ .Get "id" }}'></canvas>
     </div>
 </div>
 <script src="/vendor/Chart.bundle.min.js"></script>
-<script src="/posts/code-chart.js"></script>
+<script src='{{ .Get "src" }}'></script>

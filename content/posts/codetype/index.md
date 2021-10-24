@@ -183,7 +183,7 @@ each language. In these randomly selected projects (7,084 files), **97.8%** of
 files were correctly identified. C and OCaml, at 92.9% and 92.2% respectively,
 were the least accurate. A summary of the results is shown below:
 
-{{< code-langs >}}
+{{< chartjs id="code-langs" src="/charts/code-chart.js">}}
 
 I also performed a head-to-head comparison between codetype, the work published
 by Klein et al., SourceClassifier (the PHP port) and lang-detector on the
