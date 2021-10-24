@@ -1,6 +1,5 @@
 ---
-weight: 4
-title: "Automated Programming Language Identification"
+title: "A library for programming language identification"
 date: 2016-08-30T21:57:40+08:00
 draft: false
 
@@ -40,7 +39,7 @@ other attempts at addressing this topic along the way:
    the right language in a random subset of the data we use for testing the
    performance of our model."
 
-I started working on my own solution, [codetype][8], with the intent of
+I started working on my own solution, [`codetype`][8], with the intent of
 pursuing a strategy similar to (2). My goals were to be accurate, fast, and
 light-weight with minimal reliance on training data.
 
@@ -103,9 +102,10 @@ addition to being in binary format, the distribution version of a signature
 also associates each token with its average number of occurrences in its base
 project.
 
-When a file or string is passed to codetype, it is split into tokens according
-to [this regular expression][11]. A signature is then generated from the tokens
-and compared to each known signature according to the following algorithm:
+When a file or string is passed to `codetype`, it is split into tokens
+according to [this regular expression][11]. A signature is then generated from
+the tokens and compared to each known signature according to the following
+algorithm:
 
 ```python
 total = 1.0
@@ -183,9 +183,9 @@ each language. In these randomly selected projects (7,084 files), **97.8%** of
 files were correctly identified. C and OCaml, at 92.9% and 92.2% respectively,
 were the least accurate. A summary of the results is shown below:
 
-{{< chartjs id="code-langs" src="/charts/code-chart.js">}}
+{{< chartjs id="code-langs" src="/charts/code-chart.js" >}}
 
-I also performed a head-to-head comparison between codetype, the work published
+I also performed a head-to-head comparison between `codetype`, the work published
 by Klein et al., SourceClassifier (the PHP port) and lang-detector on the
 [Computer Language Benchmarks Game][12] (Heres' work was not tested because it
 is not free to use).
@@ -203,7 +203,7 @@ is not free to use).
    </thead>
    <tbody>
       <tr>
-         <td>codetype</td>
+         <td><code>codetype</code></td>
          <td>21</td>
          <td>621</td>
          <td>98.7</td>
@@ -233,7 +233,7 @@ is not free to use).
    </tbody>
 </table>
 
-As you can see, codetype had the most success at identifying its supported
+As you can see, `codetype` had the most success at identifying its supported
 languages while also being the second fastest per file. It is important to
 note, though, that the test results for both SourceClassifier and the work of
 Klein et. al are based solely on the training they provided (lang-detector

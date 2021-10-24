@@ -1,6 +1,5 @@
 ---
-weight: 4
-title: "Tombstone.js: A Propositional Logic Library"
+title: "Tombstone.js: A propositional logic library"
 date: 2016-09-09T21:57:40+08:00
 draft: false
 
