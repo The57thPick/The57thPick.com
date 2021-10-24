@@ -184,7 +184,7 @@ file using `pb`. There was no copying-and-pasting from other services,
 no manual link creation, no HTML inspection; just one command:
 
 ```
-pb -d /<..>/static/img /<..>/content/posts/medium/index.md
+$ pb -d /<..>/static/img /<..>/content/posts/medium/index.md
 ```
 
 I think this is a great step forward in terms of making Medium more
