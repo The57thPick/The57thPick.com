@@ -3,6 +3,7 @@
 [Ss]usceptibles
 [Uu]nicode
 Antyal
+Asciidoctor
 blockquotes?
 coronavirus
 Gists?
@@ -11,8 +12,12 @@ Inkscape
 interventive
 Kato
 Lowis
+Markdata
 Neylon
+preprocessor
 Pygments
 Rieppel
+Seaborn
+toolchain
 Typora
 Worldometer
