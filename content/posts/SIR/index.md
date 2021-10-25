@@ -51,7 +51,7 @@ them into three "compartments":
 As implied by the $f(t)$ notation, the size of each compartment may fluctuate
 over time due to various rates of change:
 
-{{< img src="/img/sir.svg" >}}
+{{< img src="img/sir.svg" >}}
 
 Ignoring natural birth and death rates (for now), the SIR model can be
 represented by the following system of ordinary differential equations (ODEs):
@@ -110,7 +110,7 @@ $$
 The ratio $\frac{\beta}{\gamma}$ is known as $R_0$ ("R-nought") or the
 [basic reproduction number][3].
 
-{{< img src="/img/r-0.jpg" w="50%" caption="A scene from *Contagion* (2011) depicting various R-nought values.">}}
+{{< img src="img/r-0.jpg" w="50%" caption="A scene from *Contagion* (2011) depicting various R-nought values.">}}
 
 This is the idea: If $R_0 \ge 1$ (the $\Delta$ of infected with respect to $t$)
 , then the rate of infection is *increasing* and&mdash;without

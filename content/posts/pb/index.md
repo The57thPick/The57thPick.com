@@ -61,7 +61,7 @@ Markdown editor, such as [VS Code][3] or [Typora][4], and then use `pb` to
 upload it to Medium. This has the added benefit of allowing you to easily
 cross-post content between Medium and other sites (such as a personal blog).
 
-![A demo of uploading content to Medium](/img/medium-upload.gif)
+![A demo of uploading content to Medium](images/medium-upload.gif)
 
 The tool works by treating Medium's [supported Markdown dialect][5] as an
 *output* format rather than an *input* format. In other words, you write your
