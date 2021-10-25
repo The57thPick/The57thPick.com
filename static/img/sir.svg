@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="531px" height="181px" viewBox="-0.5 -0.5 531 181" content="&lt;mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2020-03-23T04:00:11.448Z&quot; agent=&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36&quot; etag=&quot;Buv8kEAgJ-9cSiikIuix&quot; version=&quot;12.8.8&quot; type=&quot;google&quot;&gt;&lt;diagram id=&quot;C5RBs43oDa-KdzZeNtuy&quot; name=&quot;Page-1&quot;&gt;7Zltd5owGIZ/jR+7A+FF/Vhf1nVrd7a6revHCAGyBuJCrLpfvyDhJYJU10o5Z9pzesidBJLneu7HqD1jHK6vGFwEt9RFpAc0d90zJj0A+pYl/ifCJhVsG6SCz7CbSnohzPAfJEVNqkvsolgZyCklHC9U0aFRhByuaJAxulKHeZSoT11AH1WEmQNJVb3HLg9SdQD6hf4BYT/Inqzbw7QnhNlguZM4gC5dlSRj2jPGjFKeXoXrMSJJ7LK43F9v7snNo3318Wv8G34fffr2+cdFerP3x0zJt8BQxP/51jfRJUWhHtwiFnLDnDoL7eLClFvjmyxeyBXhk03KeEB9GkEyLdQRo8vIRcldNdEqxtxQuhCiLsRfiPONzAW45FRIAQ+J7BW7YJufcv628ZA03llZc7Iud042spWuNVngDtpn4iLHxXTJHNQwTqYEh8xHjfcDOX3hGkRDJFYpJjJEIMdP6uqgzF8/H1cwEhcS0xHI8nR8I2YFpgeFUmeY1UZNH76QmZz6hWKxbqDJ8qibkoasjsDS1FukC5OzdsjnyzgoGZq2/wTJUm5htowdtOB4TkTV3U2UIg0SpqsAczRbwG2AV6L6q8g9GnGZDyLjjZFPYBxLrDFn9DEvqMnovDom3R4mZEwJZdvHGp7nAcfJp5V6XHtuW3aeJ4emxRNiHK1LzKpgZe9Q5aNn7VXxXqBrUgtK7wOmtj8VXmZf62zf0rjsSPCcf4HZUs1tXGbJZ3fIoSINBZSOmMyFaODVmsx2BmjundBkZv8Al4E2XfbGJuvWuUYHhx5s9mBu6WBjnCtjM7T6sLV1Gm1cZqkyXkee+CDXncLoDRxUf/qYDyzT0k5YGEHnCmPGq2WTrTEveUy0Hko9hcOSRmawDhizNoL2gcW0/5a11K64coQFNiHdQY4qKSDSmavEIMF+JK4dETQk7DJKkh47kFzKjhC77jY56nysJsyuH63kr/agsn1J85f09JWzrfjvULp7faprlupTs+rTfo1Nwclsauwpq5hGh0NUAxzRCO3QkNJrwj4VovwLxQzRoIrIbBWRte8zweb/JGR2jtCwQmiC4DFVsKFC7alpr1o3266CuloFgV0FaNUANE72XUn1cHkG2ADQ0LoG0DwDPAag1R5A0Sx+ukq/ji5+/zOmfwE=&lt;/diagram&gt;&lt;/mxfile&gt;" style="" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path d="M 115 85 L 188.63 85" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 193.88 85 L 186.88 88.5 L 188.63 85 L 186.88 81.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+    <path d="M 65 105 L 65 125 L 65 115 L 65 128.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 65 133.88 L 61.5 126.88 L 65 128.63 L 68.5 126.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+    <rect x="15" y="65" width="100" height="40" rx="6" ry="6" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)"/>
+    <path d="M 455 105 L 455 125 L 455 115 L 455 128.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 455 133.88 L 451.5 126.88 L 455 128.63 L 458.5 126.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+    <rect x="395" y="65" width="120" height="40" rx="6" ry="6" fill="#dae8fc" stroke="#6c8ebf" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)"/>
+    <path d="M 315 85 L 388.63 85" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 393.88 85 L 386.88 88.5 L 388.63 85 L 386.88 81.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+    <path d="M 255 105 L 255 125 L 255 115 L 255 128.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 255 133.88 L 251.5 126.88 L 255 128.63 L 258.5 126.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+    <rect x="195" y="65" width="120" height="40" rx="6" ry="6" fill="#f8cecc" stroke="#b85450" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)"/>
+    <path d="M 65 35 L 65 58.63" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+    <path d="M 65 63.88 L 61.5 56.88 L 65 58.63 L 68.5 56.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+    <rect x="30" y="15" width="70" height="20" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)"/>
+    <rect x="135" y="55" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)"/>
+    <rect x="335" y="55" width="40" height="20" fill="none" stroke="none" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)"/>
+    <rect x="40" y="135" width="50" height="30" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)"/>
+    <rect x="230" y="135" width="50" height="30" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)"/>
+    <rect x="430" y="135" width="50" height="30" fill="#f5f5f5" stroke="#666666" pointer-events="all"/>
+    <g transform="translate(-0.5 -0.5)"/>
+  </g>
+  <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1, -14, 6)"><tspan x="51.683" y="22.637">Birth Rate</tspan><tspan x="51.683" dy="1em">​</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1, -19, 5)"><tspan x="49.614" y="83.474">Susceptibles</tspan><tspan x="49.614" dy="1em">​</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1, -12.0838, 1.223938)"><tspan x="60.772" y="147.28">Death</tspan><tspan x="60.772" dy="1em">​</tspan><tspan>Rate</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1, 179.664902, 0.961369)"><tspan x="60.772" y="147.28">Death</tspan><tspan x="60.772" dy="1em">​</tspan><tspan>Rate</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1, 378.072784, 1.569214)"><tspan x="60.772" y="147.28">Death</tspan><tspan x="60.772" dy="1em">​</tspan><tspan>Rate</tspan></text>
+  <text style="fill: rgb(132, 132, 132); font-family: Arial, sans-serif; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1, -7, 0)"><tspan x="136.234" y="66.127">Infection</tspan><tspan x="136.234" dy="1em">​</tspan><tspan>Rate</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1, 14, 4)"><tspan x="217.609" y="84.333">Infected</tspan><tspan x="217.609" dy="1em">​</tspan></text>
+  <text style="fill: rgb(132, 132, 132); font-family: Arial, sans-serif; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1, 190.842682, 0)"><tspan x="136.234" y="66.127">Recovery</tspan><tspan x="136.23399353027344" dy="1em">​</tspan><tspan>Rate</tspan></text>
+  <text style="fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1, 209.141876, 4.398101)"><tspan x="217.609" y="84.333">Recovered</tspan><tspan x="217.60899353027344" dy="1em">​</tspan></text>
+</svg>

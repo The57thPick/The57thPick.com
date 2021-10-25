@@ -178,7 +178,7 @@ and Ruby. However, since the base projects were used to create and refine the
 signatures, these results are not particularly meaningful.
 
 In order to better measure codetype's ability to identify languages in the
-"wild," I also tested a project from Github's list of trending repositories for
+"wild," I also tested a project from GitHub's list of trending repositories for
 each language. In these randomly selected projects (7,084 files), **97.8%** of
 files were correctly identified. C and OCaml, at 92.9% and 92.2% respectively,
 were the least accurate. A summary of the results is shown below:
