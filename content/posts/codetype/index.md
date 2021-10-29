@@ -10,7 +10,7 @@ summary: |
   A Python library and command-line tool for identifying the language of
   source code snippets and files.
 
-tags: ["Python"]
+tags: ["python"]
 categories: ["programming"]
 ---
 

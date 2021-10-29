@@ -9,7 +9,7 @@ authorLink: "https://github.com/jdkato"
 summary: |
   An open-source, MIT-licensed JavaScript for propositional logic library.
 
-tags: ["JavaScript"]
+tags: ["javascript"]
 categories: ["programming", "logic"]
 
 math: true
