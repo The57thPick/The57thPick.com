@@ -1,4 +1,4 @@
-baseURL: "https://The57thPick.com/"
+baseURL: https://The57thPick.com/
 module:
   imports:
     - path: github.com/adityatelange/hugo-PaperMod
@@ -17,6 +17,12 @@ minify:
   minifyOutput: true
 
 params:
+  cover:
+    responsiveImages: false
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: The57thPick.com
   description: |
@@ -52,17 +58,17 @@ params:
     safari_pinned_tab: "/fav/safari-pinned-tab.svg"
 
   label:
-    text: "The57thPick.com"
+    text: The57thPick.com
     # icon: "/img/logo.png"
     # iconHeight: 50
 
-  # home-info mode
-  homeInfoParams:
-    Title: "The57thPick.com"
-    # TODO: https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fthe57thpick.com%2F
-    Content: |
-      Welcome to <b>The57thPick.com</b>, a personal blog about mathematics,
-      politics, programming, finance, sports, and technical writing.
+  profileMode:
+    enabled: true
+    title: The57thPick.com
+    subtitle: "**Sports**, **media**, and **finance** --- *by the numbers*."
+    imageUrl: "/img/logo.png" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
 
   socialIcons:
     - name: twitter
@@ -76,11 +82,6 @@ params:
     #   url: "https://medium.com/@jdkato"
     # - name: dev
     #   url: "https://dev.to/jdkato"
-
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
 
   # editPost:
   #   URL: "https://github.com/<path_to_repo>/content"
@@ -100,6 +101,10 @@ params:
 
 menu:
   main:
+    - identifier: about
+      name: About
+      url: /about
+      weight: 5
     - identifier: categories
       name: Categories
       url: /categories/
