@@ -11,6 +11,11 @@ authorLink: https://github.com/jdkato
 
 tags: ["datasets", "data-analysis"]
 categories: ["nba"]
+
+cover:
+    image: images/cover.jpg
+    caption: "Photo by [Ramiro Pianarosa](https://unsplash.com/@rpianarosa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash."
+    relative: true
 ---
 
 <!-- https://www.pdf2go.com/ -->
