@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "dfbdf2da04715fd68b689cb6f6680eeea2fcf24f9819a919e123a86030b65941"
+            "sha256": "b718ba8e3a5d98882a3843c6cff0112024d5ae030ccd079d17064277cf339fc9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -21,7 +21,7 @@
                 "sha256:0c724848ae53410c13fa28be2b3b9a9dcb7b5caa1a70f7f217bd663bb419935a",
                 "sha256:d87d9372e63b48cd96b2a6415f0cf9457f50162ab79dc7a31cd7e024dd840026"
             ],
-            "markers": "python_version >= '3.7'",
+            "index": "pypi",
             "version": "==4.2.0"
         },
         "appnope": {
@@ -446,7 +446,7 @@
                 "sha256:aaf6ab2fcbc68ab6c4c6ba924b57991a388ccc1c8fae782f2433340a40743dfe",
                 "sha256:cf7bae999005dce012738d09610e69a47acd765797c0365c803f96c21ea2f32b"
             ],
-            "markers": "python_version >= '3.4' and python_version < '4'",
+            "markers": "python_version >= '3.4' and python_version < '4.0'",
             "version": "==2021.3.2"
         },
         "ipython": {
@@ -679,6 +679,14 @@
             ],
             "version": "==2.5.0"
         },
+        "nba-api": {
+            "hashes": [
+                "sha256:b5b67e6f1cb588db9b69c6ce9881f309f40a237091f52ed5140724bc5badf3c0",
+                "sha256:f4a4fe5e2f5a16be3487960a0b20441add1ff827c17f7d326ccc22cfecca070d"
+            ],
+            "index": "pypi",
+            "version": "==1.1.14"
+        },
         "nbclient": {
             "hashes": [
                 "sha256:884a3f4a8c4fc24bb9302f263e0af47d97f0d01fe11ba714171b320c8ac09547",
@@ -742,7 +750,7 @@
                 "sha256:ef85cf1f693c88c1fd229ccd1055570cb41cdf4875873b7728b6301f12cd05bf",
                 "sha256:f1b739841821968798947d3afcefd386fa56da0caf97722a5de53e07c4ccedc7"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version >= '3.8'",
             "version": "==1.24.1"
         },
         "orderedmultidict": {
@@ -1159,12 +1167,20 @@
             "markers": "python_version >= '3.6'",
             "version": "==25.0.0"
         },
+        "rbo": {
+            "hashes": [
+                "sha256:588f720e928930a01e4631c33623b80f7a892b30e1ac46d7a5cb5256e27a5dbe",
+                "sha256:fae72f4f59f441417c79a1628db8257e75f6a72e6d780544b46131cfd9ed1e1f"
+            ],
+            "index": "pypi",
+            "version": "==0.1.2"
+        },
         "requests": {
             "hashes": [
                 "sha256:64299f4909223da747622c030b781c0d7811e359c37124b4bd368fb8c6518baa",
                 "sha256:98b1b2782e3c6c4904938b84c0eb932721069dfdb9134313beff7c83c2df24bf"
             ],
-            "markers": "python_version >= '3.7' and python_version < '4'",
+            "markers": "python_version >= '3.7' and python_version < '4.0'",
             "version": "==2.28.2"
         },
         "requests-toolbelt": {
@@ -1220,6 +1236,14 @@
             "markers": "python_version >= '3.7'",
             "version": "==1.2.1"
         },
+        "tinydb": {
+            "hashes": [
+                "sha256:1534e498ca23f55c43b0f1e7c0cf174049498ab45a887c82ba9831e0f9868df3",
+                "sha256:8955c239a79b8a6c8f637900152e2de38690848199d71d870c33c16405433ca5"
+            ],
+            "index": "pypi",
+            "version": "==4.7.1"
+        },
         "toolz": {
             "hashes": [
                 "sha256:2059bd4148deb1884bb0eb770a3cde70e7f954cfbbdc2285f1f2de01fd21eb6f",
@@ -1260,6 +1284,14 @@
             ],
             "markers": "python_version < '3.10'",
             "version": "==4.4.0"
+        },
+        "unidecode": {
+            "hashes": [
+                "sha256:547d7c479e4f377b430dd91ac1275d593308dce0fc464fb2ab7d41f82ec653be",
+                "sha256:fed09cf0be8cf415b391642c2a5addfc72194407caee4f98719e40ec2a72b830"
+            ],
+            "index": "pypi",
+            "version": "==1.3.6"
         },
         "urllib3": {
             "hashes": [

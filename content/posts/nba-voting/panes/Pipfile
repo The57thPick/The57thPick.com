@@ -7,6 +7,11 @@ name = "pypi"
 datapane = "*"
 polars = "*"
 pandas = "*"
+tinydb = "*"
+rbo = "*"
+altair = "*"
+unidecode = "*"
+nba-api = "*"
 
 [dev-packages]
 
