@@ -72,12 +72,19 @@ params:
     imageUrl: "/img/logo.png" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
+    buttons:
+      - name: Metrics
+        url: /archive
+      - name: Datasets
+        url: "https://github.com/"
+      - name: Archive
+        url: /posts
 
   socialIcons:
     - name: twitter
       url: "https://twitter.com/jdkato"
-    - name: keybase
-      url: "https://keybase.io/jdkato"
+    - name: rss
+      url: "/index.xml"
     - name: github
       url: "https://github.com/jdkato"
 
