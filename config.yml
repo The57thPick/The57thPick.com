@@ -23,7 +23,6 @@ params:
   description: |
     A collection of interactive, data-driven, and reproducible essays.
   keywords: [Blog, Portfolio, PaperMod]
-
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -111,10 +110,6 @@ params:
 
 menu:
   main:
-    - identifier: about
-      name: About
-      url: /about
-      weight: 5
     - identifier: categories
       name: Categories
       url: /categories/
